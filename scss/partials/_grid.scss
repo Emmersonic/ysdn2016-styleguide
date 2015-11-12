@@ -1,21 +1,22 @@
 // Grid
 
 .grid {
-	$colWidth: 64px;
-	$colGutter: 16px;
-	$colCount: 12;
+	$contWidth: 	824px;	// Total container width
+	$colGutter: 	2; 		// In percent
+	$colCount: 		12; 	// Total columns
 	@extend .cf;
 
 	.g-container {
-		width: ($colWidth * $colCount) + (($colGutter * $colCount) - $colGutter);
+		max-width: $contWidth;
 	}
 
 	.row {
 		width: 100%;
+		@extend .cf;
 	}
 
-	.col{
-		display: inline-block;
+	[class*='col-']{
+		float: left;
 		min-height: 1px;
 		&:last-child {
 			margin-right: 0;
@@ -24,7 +25,7 @@
 
 	@for $i from 1 through $colCount {
 		.col-#{$i} {
-			width: ($colWidth * $i) + (($colGutter * $i) - $colGutter);
+			width: (100% / $colCount) * $i;
 			margin-right: $colGutter;
 		}
 	}

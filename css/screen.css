@@ -126,14 +126,15 @@ a {
 
 .s-body {
   display: flex;
+  background-attachment: fixed;
   background-image: url("../img/square_bg_@2X.png");
   background-size: 251px 230px; }
   .s-body .s-layout-sidebar {
     flex: 0 0 260px;
-    background-color: #F8F8FA; }
+    background-color: #FAFAFA; }
   .s-body .s-layout-content {
     background-color: #FFF;
-    border-right: 1px solid #F8F8FA; }
+    border-right: 1px solid #FAFAFA; }
 
 .s-sidebar {
   padding: 54px 62px 54px 32px; }
@@ -155,7 +156,7 @@ a {
     font-size: 0.9em;
     padding: 8px 12px; }
     .s-sidebar a:hover {
-      background-color: #efeff4; }
+      background-color: whitesmoke; }
     .s-sidebar a.s-subnav-item {
       margin-left: 2px; }
       .s-sidebar a.s-subnav-item::before {

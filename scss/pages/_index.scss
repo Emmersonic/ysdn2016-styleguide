@@ -83,7 +83,7 @@
 
 .s-content {
 	header {
-		margin-bottom: 34px;
+		margin-bottom: 22px;
 	}
 
 	section {
@@ -114,6 +114,36 @@
 		font-size: 0.9em;
 		span {
 			font-weight: bold;
+		}
+	}
+
+	.s-divider {
+		color: $s-color-type-light;
+		cursor: default;
+		text-transform: uppercase;
+		font-size: 0.8em;
+		font-weight: bold;
+		padding: 12px 54px;
+	}
+
+	.s-sample {
+		padding: 12px 0 24px 0;
+	}
+
+	.s-col-sample {
+		background-color: $s-color-bg-darker;
+		height: 36px;
+		border-radius: 4px;
+	}
+
+	#s-typeface {
+		.row {
+			display: table;
+		}
+
+		.col {
+			display: table-cell;
+			vertical-align: top;
 		}
 	}
 }

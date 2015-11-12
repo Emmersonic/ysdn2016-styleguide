@@ -11,7 +11,7 @@
 		<!-- <link rel="icon" href="/favicon.ico"> -->
 
 	</head>
-	<body class="s-body">
+	<body class="s-body grid">
 		<div class="s-layout-sidebar s-sidebar">
 			<header>
 				<h1>YSDN 2016</h1>
@@ -19,7 +19,7 @@
 			</header>
 			<nav>
 				<p class="label">Typography</p>
-				<a href="#s-fonts" class="s-nav-item">Fonts</a>
+				<a href="#s-typeface" class="s-nav-item">Typeface</a>
 
 				<p class="label">Grid</p>
 				<a href="#s-fonts" class="s-nav-item">Units</a>
@@ -33,11 +33,43 @@
 				<a href="#s-bg-color" class="s-nav-item">Hovercard</a>
 					<a href="#s-fonts" class="s-nav-item s-subnav-item">Student</a>
 					<a href="#s-fonts" class="s-nav-item s-subnav-item">Project</a>
+				<a href="#s-bg-color" class="s-nav-item">Case Study</a>
 			</nav>
 		</div>
-		<div class="s-layout-content grid">
-			<section id="s-intro"></section>
-			<section id="s-fonts"></section>
+		<div class="s-layout-content s-content g-container">
+			<section id="s-intro" class="row">
+				<header>
+					<h2>Intro</h2>
+				</header>
+				<p class="col-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestiae nam, unde, vero omnis odio corporis dignissimos eius facere id ullam!</p>
+			</section>
+			<section id="s-typeface">
+				<header>
+					<h2>Typeface</h2>
+				</header>
+				<div class="type type-h1 group">
+					<div class="row">
+						<h1 class="col-12">The quick brown fox jumps over the lazy dog.</h1>
+					</div>
+					<div class="row">
+						<p class="col col-1">
+							&lt;h1&gt;
+						</p>
+						<div class="col col-4">
+							<code>
+								family: <span>Helvetica Neue</span>; <br/>
+								weight: <span>400</span>; <br/>
+								size: <span>1.4em</span>;
+							</code>
+						</div>
+						<div class="col col-4">
+							<code>
+								font-family: "Helvetica Neue";
+							</code>
+						</div>
+					</div>
+				</div>
+			</section>
 			<section id="s-bg-color"></section>
 			<section id="s-border-color"></section>
 		</div>

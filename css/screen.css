@@ -64,6 +64,8 @@ a:hover, a:active {
   display: block;
   clear: both; }
 
+.grid .g-container {
+  width: 944px; }
 .grid .row {
   width: 100%; }
 .grid .col {
@@ -123,12 +125,15 @@ a {
     color: inherit; }
 
 .s-body {
-  display: flex; }
+  display: flex;
+  background-image: url("../img/square_bg_@2X.png");
+  background-size: 251px 230px; }
   .s-body .s-layout-sidebar {
     flex: 0 0 260px;
     background-color: #F8F8FA; }
   .s-body .s-layout-content {
-    flex: 1; }
+    background-color: #FFF;
+    border-right: 1px solid #F8F8FA; }
 
 .s-sidebar {
   padding: 54px 62px 54px 32px; }
@@ -150,7 +155,7 @@ a {
     font-size: 0.9em;
     padding: 8px 12px; }
     .s-sidebar a:hover {
-      background-color: white; }
+      background-color: #efeff4; }
     .s-sidebar a.s-subnav-item {
       margin-left: 2px; }
       .s-sidebar a.s-subnav-item::before {
@@ -158,7 +163,32 @@ a {
         content: '↳ '; }
   .s-sidebar .label {
     color: #C6C9CB;
+    cursor: default;
     text-transform: uppercase;
     font-size: 0.7em;
     font-weight: bold;
     padding: 18px 12px 6px 12px; }
+
+.s-content header {
+  margin-bottom: 34px; }
+.s-content section {
+  padding: 54px; }
+.s-content h2 {
+  color: #3e3e3e;
+  line-height: 1.6;
+  font-size: 1.6em;
+  font-weight: 300; }
+.s-content p {
+  color: #85898D;
+  letter-spacing: .01rem;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 1.1em;
+  line-height: 1.58;
+  letter-spacing: -0.003em; }
+.s-content code {
+  color: #85898D;
+  font-family: monospace;
+  font-size: 0.9em; }
+  .s-content code span {
+    font-weight: bold; }

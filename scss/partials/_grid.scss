@@ -6,6 +6,10 @@
 	$colCount: 12;
 	@extend .cf;
 
+	.g-container {
+		width: ($colWidth * $colCount) + (($colGutter * $colCount) - $colGutter);
+	}
+
 	.row {
 		width: 100%;
 	}

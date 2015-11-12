@@ -6,9 +6,11 @@
 	$s-color-type-lighter: #ffffff;
 	$s-color-type-light: #C6C9CB;
 	$s-color-type-medium: #85898D;
-	$s-color-type-dark: #1e1e1e;
+	$s-color-type-regular: #45474E;
+	$s-color-type-dark: #3e3e3e;
 	$s-color-type-darker: #000;
 
 	// Backgrounds & Fills
 	$s-color-bg: #F8F8FA;
 	$s-color-bg-lighter: lighten(#F8F8FA, 3%);
+	$s-color-bg-darker: darken(#F8F8FA, 3%);

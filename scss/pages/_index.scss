@@ -1,1 +1,73 @@
 // Index
+
+.s-body {  
+
+// ===
+// Styleguide Styles
+// ===
+
+	display: flex; // Use flexbox layout
+
+// Layout
+
+.s-layout-sidebar {
+	flex: 0 0 260px;
+	background-color: $s-color-bg;
+	
+}
+
+.s-layout-content {
+	flex: 1;
+}
+
+}
+
+// Sidebar
+
+.s-sidebar {
+	padding: 54px 62px 54px 32px;
+	
+	header {
+		padding: 0 12px 32px 12px;
+	}
+
+	h1 {
+		color: $s-color-type-medium;
+		line-height: 1.6;
+		font-size: 1.6em;
+		font-weight: 300;
+	}
+
+	h2 {
+		color: $s-color-type-light;
+		line-height: 1;
+		font-size: 1em;
+	}
+
+	a {
+		color: $s-color-type-medium;
+		border-radius: 3px;
+		display: block;
+		font-size: 0.9em;
+		padding: 8px 12px;
+		&:hover {
+			background-color: $s-color-bg-lighter;
+		}
+
+		&.s-subnav-item {
+			margin-left: 2px;
+			&::before {
+				color: $s-color-type-light;
+				content: '↳ ';
+			}
+		}
+	}
+
+	.label {
+		color: $s-color-type-light;
+		text-transform: uppercase;
+		font-size: 0.7em;
+		font-weight: bold;
+		padding: 18px 12px 6px 12px;
+	}
+}

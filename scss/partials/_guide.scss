@@ -1,0 +1,64 @@
+// Typography
+
+html {
+	font-family: -apple-system, ".SFNSDisplay-Regular", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+	font-size: 16px;
+}
+
+// Font smoothing hack
+html, html a {
+    -webkit-font-smoothing: antialiased !important;
+    text-shadow: 1px 1px 1px rgba(0,0,0,0.004);
+}
+
+a {
+	text-decoration: none;
+	color: inherit;
+	&:visited { color: inherit }
+}
+
+h1 {
+	font-family: SofiaProSemiBold;
+	font-size: 60px;
+	color: #1E1E1E;
+	line-height: 64px;
+}
+
+h2 {
+	font-family: SofiaProSemiBold;
+	font-size: 36px;
+	color: #1E1E1E;
+	line-height: 44px;
+}
+
+h3 {
+	font-family: SofiaProSemiBold;
+	font-size: 24px;
+	color: #000000;
+	line-height: 32px;
+}
+
+h4 {
+	font-family: SofiaProSemiBold;
+	font-size: 14px;
+	color: #AAAAAA;
+	letter-spacing: 0.87px;
+	line-height: 12px;
+	text-transform: uppercase;
+}
+
+p {
+	font-family: Karla-Regular;
+	font-size: 16px;
+	color: #000000;
+	line-height: 24px;
+}
+
+//Intermission Colours
+
+$orange: #f47f50;
+$yellow: #fed418;
+$red: #ef4862;
+$green: #5ac2b4;
+$blue: #7abee0;
+$accent: #2b4074;

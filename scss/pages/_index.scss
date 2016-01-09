@@ -1,6 +1,6 @@
 // Index
 
-.s-body {  
+.s-body {
 
 // ===
 // Styleguide Styles
@@ -16,7 +16,15 @@
 .s-layout-sidebar {
 	flex: 0 0 260px;
 	background-color: $s-color-bg;
-	
+
+	header {
+		position: fixed;
+	}
+
+	nav {
+		position: fixed;
+		top: 150px;
+	}
 }
 
 .s-layout-content {
@@ -32,7 +40,7 @@
 
 .s-sidebar {
 	padding: 54px 62px 54px 32px;
-	
+
 	header {
 		padding: 0 12px 32px 12px;
 	}
@@ -146,4 +154,8 @@
 			vertical-align: top;
 		}
 	}
+}
+
+.type {
+	margin-top: 20px;
 }

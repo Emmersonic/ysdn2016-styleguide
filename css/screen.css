@@ -140,6 +140,11 @@ h2 {
   .s-body .s-layout-sidebar {
     flex: 0 0 260px;
     background-color: #FAFAFA; }
+    .s-body .s-layout-sidebar header {
+      position: fixed; }
+    .s-body .s-layout-sidebar nav {
+      position: fixed;
+      top: 150px; }
   .s-body .s-layout-content {
     background-color: #FFF;
     border-right: 1px solid #FAFAFA; }
@@ -219,3 +224,77 @@ h2 {
 .s-content #s-typeface .col {
   display: table-cell;
   vertical-align: top; }
+
+.type {
+  margin-top: 20px; }
+
+html {
+  font-family: -apple-system, ".SFNSDisplay-Regular", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+  font-size: 16px; }
+
+html, html a {
+  -webkit-font-smoothing: antialiased !important;
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.004); }
+
+a {
+  text-decoration: none;
+  color: inherit; }
+  a:visited {
+    color: inherit; }
+
+h1 {
+  font-family: SofiaProSemiBold;
+  font-size: 60px;
+  color: #1E1E1E;
+  line-height: 64px; }
+
+h2 {
+  font-family: SofiaProSemiBold;
+  font-size: 36px;
+  color: #1E1E1E;
+  line-height: 44px; }
+
+h3 {
+  font-family: SofiaProSemiBold;
+  font-size: 24px;
+  color: #000000;
+  line-height: 32px; }
+
+h4 {
+  font-family: SofiaProSemiBold;
+  font-size: 14px;
+  color: #AAAAAA;
+  letter-spacing: 0.87px;
+  line-height: 12px;
+  text-transform: uppercase; }
+
+p {
+  font-family: Karla-Regular;
+  font-size: 16px;
+  color: #000000;
+  line-height: 24px; }
+
+.color {
+  width: 100%;
+  height: 100px;
+  margin: 20px 0; }
+
+#red {
+  background-color: #ef4862; }
+
+#orange {
+  background-color: #f47f50; }
+
+#yellow {
+  background-color: #fed418; }
+
+#green {
+  background-color: #5ac2b4; }
+
+#blue {
+  background-color: #7abee0; }
+
+#accent {
+  background-color: #2b4074; }
+
+/*# sourceMappingURL=screen.css.map */

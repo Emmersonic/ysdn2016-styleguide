@@ -98,24 +98,6 @@
 		padding: 54px;
 	}
 
-	h2 {
-		color: $s-color-type-dark;
-		line-height: 1.6;
-		font-size: 1.6em;
-		font-weight: 300;
-	}
-
-	p {
-		color: $s-color-type-medium;
-		// Ripped from Medium, feel free to tweak
-		letter-spacing: .01rem;
-	    font-weight: 400;
-	    font-style: normal;
-	    font-size: 1.1em;
-	    line-height: 1.58;
-	    letter-spacing: -0.003em;
-	}
-
 	code {
 		color: $s-color-type-medium;
 		font-family: monospace;

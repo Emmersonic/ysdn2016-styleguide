@@ -25,7 +25,7 @@
 				<a href="#s-fonts" class="s-nav-item">Units</a>
 				<a href="#s-fonts" class="s-nav-item">Wrapping</a>
 
-				<p class="label">User Interface</p>
+				<p class="label">Color</p>
 				<a href="#s-bg-color" class="s-nav-item">Background Colors</a>
 				<a href="#s-border-color" class="s-nav-item">Border Colors</a>
 
@@ -43,31 +43,77 @@
 				</header>
 				<p class="col-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestiae nam, unde, vero omnis odio corporis dignissimos eius facere id ullam!</p>
 			</section>
+			<div class="s-divider">Typeography</div>
 			<section id="s-typeface">
 				<header>
 					<h2>Typeface</h2>
 				</header>
 				<div class="type type-h1 group">
 					<div class="row">
-						<h1 class="col-12">The quick brown fox jumps over the lazy dog.</h1>
+						<h1 class="col-12 s-sample">The quick brown fox jumps over the lazy dog.</h1>
 					</div>
 					<div class="row">
-						<p class="col col-1">
-							&lt;h1&gt;
-						</p>
-						<div class="col col-4">
+						<div class="col col-2">
+							<code>
+								&lt;h1&gt;
+							</code>
+						</div>
+						<div class="col col-3">
 							<code>
 								family: <span>Helvetica Neue</span>; <br/>
 								weight: <span>400</span>; <br/>
 								size: <span>1.4em</span>;
 							</code>
 						</div>
-						<div class="col col-4">
+						<div class="col col-3">
 							<code>
-								font-family: "Helvetica Neue";
+								color: #something;
 							</code>
 						</div>
 					</div>
+				</div>
+				<div class="type type-h2 group">
+					<div class="row">
+						<h2 class="col-12 s-sample">The quick brown fox jumps over the lazy dog.</h2>
+					</div>
+					<div class="row">
+						<div class="col col-2">
+							<code>
+								&lt;h2&gt;
+							</code>
+						</div>
+						<div class="col col-3">
+							<code>
+								family: <span>Helvetica Neue</span>; <br/>
+								weight: <span>400</span>; <br/>
+								size: <span>1.1em</span>;
+							</code>
+						</div>
+						<div class="col col-3">
+							<code>
+								color: #something;
+							</code>
+						</div>
+					</div>
+				</div>
+			</section>
+			<section id="s-grid">
+				<header>
+					<h2>Grid</h2>
+				</header>
+				<p>The site uses a basic 12 column grid system. Grid css is located in scss/partials/_grid.scss</p>
+
+				<h3>Getting started</h3>
+				<p>The grid is activated by adding the .grid class on the body tag. As simple as that.</p>
+				<h3>Rows</h3>
+				<h3>Columns</h3>
+				<div class="row">
+					<div class="col col-12 s-col-sample"></div>
+				</div>
+				<div class="row">
+					<div class="col col-4 s-col-sample"></div>
+					<div class="col col-4 s-col-sample"></div>
+					<div class="col col-4 s-col-sample"></div>
 				</div>
 			</section>
 			<section id="s-bg-color"></section>

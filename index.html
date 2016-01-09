@@ -21,13 +21,12 @@
 				<p class="label">Typography</p>
 				<a href="#s-typeface" class="s-nav-item">Typeface</a>
 
+				<p class="label">Color</p>
+				<a href="#s-color" class="s-nav-item">Basic Colours</a>
+
 				<p class="label">Grid</p>
 				<a href="#s-fonts" class="s-nav-item">Units</a>
 				<a href="#s-fonts" class="s-nav-item">Wrapping</a>
-
-				<p class="label">Color</p>
-				<a href="#s-bg-color" class="s-nav-item">Background Colors</a>
-				<a href="#s-border-color" class="s-nav-item">Border Colors</a>
 
 				<p class="label">Modules</p>
 				<a href="#s-bg-color" class="s-nav-item">Hovercard</a>
@@ -41,9 +40,9 @@
 				<header>
 					<h2>Intro</h2>
 				</header>
-				<p class="col-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestiae nam, unde, vero omnis odio corporis dignissimos eius facere id ullam!</p>
+				<p class="col-12">Welcome to the intermission front-end styleguide</p>
 			</section>
-			<div class="s-divider">Typeography</div>
+			<div class="s-divider">Typography</div>
 			<section id="s-typeface">
 				<header>
 					<h2>Typeface</h2>
@@ -60,14 +59,14 @@
 						</div>
 						<div class="col col-3">
 							<code>
-								family: <span>Helvetica Neue</span>; <br/>
-								weight: <span>400</span>; <br/>
-								size: <span>1.4em</span>;
+								family: <span>'Sofia Pro'</span>; <br/>
+								weight: <span>500</span>; <br/>
+								size: <span>60px</span>;
 							</code>
 						</div>
 						<div class="col col-3">
 							<code>
-								color: #something;
+								color: $black;
 							</code>
 						</div>
 					</div>
@@ -84,6 +83,101 @@
 						</div>
 						<div class="col col-3">
 							<code>
+								family: <span>'Sofia Pro'</span>; <br/>
+								weight: <span>500</span>; <br/>
+								size: <span>36px</span>;
+							</code>
+						</div>
+						<div class="col col-3">
+							<code>
+								color: $black;
+							</code>
+						</div>
+					</div>
+				</div>
+				<div class="type type-h3 group">
+					<div class="row">
+						<h3 class="col-12 s-sample">The quick brown fox jumps over the lazy dog.</h3>
+					</div>
+					<div class="row">
+						<div class="col col-2">
+							<code>
+								&lt;h3&gt;
+							</code>
+						</div>
+						<div class="col col-3">
+							<code>
+								family: <span>'Sofia Pro'</span>; <br/>
+								weight: <span>500</span>; <br/>
+								size: <span>24px</span>;
+							</code>
+						</div>
+						<div class="col col-3">
+							<code>
+								color: #000000;
+							</code>
+						</div>
+					</div>
+				</div>
+				<div class="type type-h4 group">
+					<div class="row">
+						<h4 class="col-12 s-sample">The quick brown fox jumps over the lazy dog.</h4>
+					</div>
+					<div class="row">
+						<div class="col col-2">
+							<code>
+								&lt;h4&gt;
+							</code>
+						</div>
+						<div class="col col-3">
+							<code>
+								family: <span>'Sofia Pro'</span>; <br/>
+								weight: <span>500</span>; <br/>
+								size: <span>14px</span>;
+							</code>
+						</div>
+						<div class="col col-3">
+							<code>
+								color: #AAAAAA;
+							</code>
+						</div>
+					</div>
+				</div>
+				<div class="type type-p group">
+					<div class="row">
+						<p class="col-12 s-sample">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer elementum ante non justo aliquam, nec aliquet leo bibendum. Aenean rhoncus pellentesque quam, ac bibendum ligula aliquam eget. Quisque varius ipsum ut sem ullamcorper tristique. Phasellus facilisis pharetra risus. Nam est sapien, fermentum ut semper ut, tempor ac felis. Curabitur nisl eros, euismod vel odio id, rhoncus tincidunt ante. Morbi convallis iaculis iaculis. Quisque diam dolor, commodo non velit vel, accumsan vulputate risus. Sed pulvinar lectus varius pellentesque efficitur. Nunc sit amet lacinia lacus, eget rhoncus dolor. Praesent ex elit, congue sed posuere sit amet, rutrum sed turpis.</p>
+					</div>
+					<div class="row">
+						<div class="col col-2">
+							<code>
+								&lt;p&gt;
+							</code>
+						</div>
+						<div class="col col-3">
+							<code>
+								family: <span>Karla-Regular</span>; <br/>
+								weight: <span>normal</span>; <br/>
+								size: <span>16px</span>;
+							</code>
+						</div>
+						<div class="col col-3">
+							<code>
+								color: $black;
+							</code>
+						</div>
+					</div>
+				</div>
+				<div class="type type-a group">
+					<div class="row">
+						<p class="col-12 s-sample">This is an <a href="#">example</a> of an inline link</p>
+					<div class="row">
+						<div class="col col-2">
+							<code>
+								&lt;a&gt;
+							</code>
+						</div>
+						<div class="col col-3">
+							<code>
 								family: <span>Helvetica Neue</span>; <br/>
 								weight: <span>400</span>; <br/>
 								size: <span>1.1em</span>;
@@ -94,6 +188,161 @@
 								color: #something;
 							</code>
 						</div>
+					</div>
+				</div>
+				<div class="type type-a group">
+					<div class="row">
+						<input class="col-12" placeholder="Placeholder"></input>
+					<div class="row">
+						<div class="col col-2">
+							<code>
+								&lt;input&gt;
+							</code>
+						</div>
+						<div class="col col-3">
+							<code>
+								family: <span>Helvetica Neue</span>; <br/>
+								weight: <span>400</span>; <br/>
+								size: <span>1.1em</span>;
+							</code>
+						</div>
+						<div class="col col-3">
+							<code>
+								color: #something;
+							</code>
+						</div>
+					</div>
+				</div>
+				<div class="type type-a group">
+					<div class="row">
+						<input class="col-12 min-input" placeholder="Placeholder"></input>
+					<div class="row">
+						<div class="col col-2">
+							<code>
+								&lt;input class="min-input"&gt;
+							</code>
+						</div>
+						<div class="col col-3">
+							<code>
+								family: <span>Helvetica Neue</span>; <br/>
+								weight: <span>400</span>; <br/>
+								size: <span>1.1em</span>;
+							</code>
+						</div>
+						<div class="col col-3">
+							<code>
+								color: #something;
+							</code>
+						</div>
+					</div>
+				</div>
+				<div class="type type-a group">
+					<div class="row">
+						<a class="btn-primary" placeholder="Placeholder">Button</a>
+					<div class="row">
+						<div class="col col-2">
+							<code>
+								&lt;a class="btn-primary"&gt;
+							</code>
+						</div>
+						<div class="col col-3">
+							<code>
+								family: <span>Helvetica Neue</span>; <br/>
+								weight: <span>400</span>; <br/>
+								size: <span>1.1em</span>;
+							</code>
+						</div>
+						<div class="col col-3">
+							<code>
+								color: #something;
+							</code>
+						</div>
+					</div>
+				</div>
+			</section>
+			<section id="s-color">
+				<header>
+					<h2>Color</h2>
+				</header>
+				<p>We are using SCSS variables for colours, now you don't have to type in hex codes. Use SCSS variables like this <code>color: $red;</code></p>
+				<div class="color" id="orange"></div>
+				<div class="row">
+					<div class="col col-2">
+						<code>
+							$orange
+						</code>
+					</div>
+					<div class="col col-3">
+						<code>
+							<span>#f47f50</span><br/>
+						</code>
+					</div>
+				</div>
+				<div class="color" id="yellow"></div>
+				<div class="row">
+					<div class="col col-2">
+						<code>
+							$yellow
+						</code>
+					</div>
+					<div class="col col-3">
+						<code>
+							<span>#fed418</span><br/>
+						</code>
+					</div>
+				</div>
+				<div class="row">
+					<div class="color" id="red"></div>
+				</div>
+				<div class="row">
+					<div class="col col-2">
+						<code>
+							$red
+						</code>
+					</div>
+					<div class="col col-3">
+						<code>
+							<span>#ef4862</span><br/>
+						</code>
+					</div>
+				</div>
+				<div class="color" id="green"></div>
+				<div class="row">
+					<div class="col col-2">
+						<code>
+							$green
+						</code>
+					</div>
+					<div class="col col-3">
+						<code>
+							<span>#5ac2b4</span><br/>
+						</code>
+					</div>
+				</div>
+				<div class="color" id="blue"></div>
+				<div class="row">
+					<div class="col col-2">
+						<code>
+							$blue
+						</code>
+					</div>
+					<div class="col col-3">
+						<code>
+							<span>#7abee0</span><br/>
+						</code>
+					</div>
+				</div>
+				<div class="color" id="accent"></div>
+				<div class="row">
+					<div class="col col-2">
+						<code>
+							$accent
+						</code>
+					</div>
+					<div class="col col-3">
+						<code>
+							<span>#2b4074</span><br/>
+						</code>
 					</div>
 				</div>
 			</section>
@@ -116,12 +365,10 @@
 					<div class="col col-4 s-col-sample"></div>
 				</div>
 			</section>
-			<section id="s-bg-color"></section>
-			<section id="s-border-color"></section>
 		</div>
 
 		<!-- <script src="http://code.jquery.com/jquery-latest.min.js"></script> -->
-		
+
 		<script src="js/scripts.js"></script>
 
 	</body>
